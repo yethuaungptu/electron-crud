@@ -9,6 +9,8 @@ import { app, Menu } from "electron";
 import { devMenuTemplate } from "./menu/dev_menu_template";
 import { editMenuTemplate } from "./menu/edit_menu_template";
 import createWindow from "./helpers/window";
+const db = require('../app/db/stores/todoItem');
+global.db = db;
 
 // Special module holding environment variables which you declared
 // in config/env_xxx.json file.

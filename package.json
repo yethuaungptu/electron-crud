@@ -31,7 +31,10 @@
     "release": "npm test && webpack --config=build/webpack.app.config.js --env=production && electron-builder"
   },
   "dependencies": {
-    "fs-jetpack": "^2.1.0"
+    "ajv": "^6.12.6",
+    "fs-jetpack": "^2.1.0",
+    "jquery": "^3.5.1",
+    "nedb-promises": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
